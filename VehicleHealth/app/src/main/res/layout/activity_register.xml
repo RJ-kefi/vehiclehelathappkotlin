@@ -1,0 +1,82 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_gradient"
+    android:gravity="center"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="20dp"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:text="Register whit Vehicle Health"
+        android:textAlignment="center"
+        android:textColor="#FBF2F1"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/r_vehicleno"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@drawable/et_crust"
+        android:hint="Vehicle No"
+        android:padding="15dp" />
+
+    <EditText
+        android:id="@+id/r_ownername"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@drawable/et_crust"
+        android:hint="Owner Name"
+        android:padding="15dp" />
+
+    <EditText
+        android:id="@+id/chasisno"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@drawable/et_crust"
+        android:hint="Chasis No"
+        android:padding="15dp" />
+
+    <EditText
+        android:id="@+id/Model"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/et_crust"
+        android:hint="Model"
+        android:padding="15dp" />
+    <CheckBox
+        android:id="@+id/terms_conditions"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Terms and Conditions"
+        android:textColor="@android:color/white"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="8dp"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:textSize="16sp"/>
+    <Button
+        android:id="@+id/register"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Check"
+        android:text="Register"
+        android:padding="12dp"
+        android:background="@drawable/rounded_button"
+        android:textColor="@android:color/white"
+        android:enabled="false" />
+
+
+</LinearLayout>
